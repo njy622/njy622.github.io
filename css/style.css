@@ -1294,7 +1294,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .custom-block {
   margin-bottom: 30px; }
   .custom-block .section-title {
-    font-size: 18px;
+    font-size: 50px;
     font-weight: 700; }
 
 .custom-accordion .accordion-item {
