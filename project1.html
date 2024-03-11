@@ -114,19 +114,21 @@
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-lg-5 mb-5">
-          <h2 class="line-bottom mb-4" data-aos="fade-up" data-aos-delay="0">The Company</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <h2 class="line-bottom mb-4" data-aos="fade-up" data-aos-delay="0">Web Services<span class="text-primary">.</span></h2>
+          <p data-aos="fade-up" data-aos-delay="100">
+            일상생활에서 놓치고 있던 친환경 혜택을 손쉽게 안내 받을 수 있는 Chatbot 안내 웹사이트입니다.
+          </p>
           <ul class="list-unstyled ul-check mb-5 primary" data-aos="fade-up" data-aos-delay="200">
-            <li>Separated they live</li>
-            <li>Bookmarksgrove right at the coast</li>
-            <li>large language ocean</li>
+            <li>24시간 응답해주는 Chatbot</li>
+            <li>영수증 업로드를 하면 혜택 상품과 적립 포인트 자동계산</li>
+            <li>친환경 상품여부와 가까운 매장안내까지 한번에!</li>
           </ul>
 
 
 
           <p data-aos="fade-up" data-aos-delay="200">
             <a href="elements.html" class="btn btn-primary">See Elements</a>
-            <a href="#" class="btn btn-outline-black">Learn More</a>
+            <a href="https://github.com/njy622/HipData" class="btn btn-outline-black">Github Code</a>
           </p>
         </div>
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
@@ -147,8 +149,13 @@
       <div class="row justify-content-center">
 
         <div class="col-lg-7 heading text-center" data-aos="fade-up" data-aos-delay="0">
-          <span class="subtitle">Why us?</span>
-          <h2 class="mb-5">Far far away, behind the word mountains, far from the countries .</h2>
+          <span class="subtitle">My responsibility</span>
+          <h2>프로젝트를 성공적으로 완성하기 위해서<br> 아래와 같은 업무를 진행해왔습니다.</h2>
+          <ul class="list-unstyled list mb-4" style="text-align: left; margin-left:25%;">
+            <li>수행 기간: 2023.10.18 ~ 2023.11.01(10일)</li>
+            <li>참여 인원: 5명</li>
+            <li>기여도: PE/BE: 60%,Data-collection:20%,Design: 20%</li>
+          </ul>
 
 
         </div>
@@ -158,34 +165,38 @@
           <div class="custom-accordion" id="accordion_1">
             <div class="accordion-item">
               <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How to download and register?</button>
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Chatbot을 이용한 그린카드, 녹색금융, 가까운매장, 혜택안내</button>
               </h2>
 
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_1">
                 <div class="accordion-body">
-                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                  ko-sentence-transformers 한국어 임베딩모델을 이용하여, 사용자의 질문입력을
+                  벡터화하여 시나리오의 CSV파일을 비교하여 유사도가 높은 답을 대답하도록 하였습니다.
+                  가까운 매장 안내는 사용자에게 주소(동까지)를 입력받아 네이버 지도 웹을 Selenium, Crawling을 이용하여 안내하도록 구현하였습니다.
                 </div>
               </div>
             </div> <!-- .accordion-item -->
 
             <div class="accordion-item">
               <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How to create your paypal account?</button>
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">영수증 업로드를 통한 에코포인트 계산</button>
               </h2>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_1">
                 <div class="accordion-body">
-                  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                  Tesseract ORC API를 이용하여, 영수증 이미지를 텍스트화 하여,
+                  친환경 상품 여부확인 후, 적립예상 포인트를 합산하여 알려줍니다.
                 </div>
               </div>
             </div> <!-- .accordion-item -->
             <div class="accordion-item">
               <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How to link your paypal and bank account?</button>
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Chatbot과 대화한 이력 데이터 저장</button>
               </h2>
 
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_1">
                 <div class="accordion-body">
-                  When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.
+                  Python, SQLite를 이용한 대화이력 저장 및 Chat이력 페이지를 제작하여,
+                  사용자가 과거에 대화한 이력과 업로드한 영수증을 확인하고 검색할 수 있도록 구현하였습니다.
                 </div>
               </div>
 
@@ -193,12 +204,25 @@
 
             <div class="accordion-item">
               <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">How to subscribe to your newsletter?</button>
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">녹색소비, 대중교통, 에너지절약(관리비), 공공기관 혜택, 상품 등 데이터 수집</button>
               </h2>
 
               <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion_1">
                 <div class="accordion-body">
-                  When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.
+                  Green-Card 홈페이지에서 Python과 Crawrling, Pandas를 활용하여,  CSV파일로 데이터 수집 후 웹으로 구현하였습니다.
+                  금융상품은 금융사이트 보안상의 문제로 CSV파일로 직접 데이터를 수집하였습니다.
+                </div>
+              </div>
+
+            </div> <!-- .accordion-item -->
+            <div class="accordion-item">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">사용자 편의에 맞춤 웹 디자인</button>
+              </h2>
+
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion_1">
+                <div class="accordion-body">
+                  CSS, HTML, JavaScript, Bootstrap 이용 사용자가 손쉽게 이용할 수 있도록 화면을 구상하였습니다.
                 </div>
               </div>
 
@@ -209,10 +233,12 @@
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
 
           <div class="owl-single owl-carousel no-nav">
-            <img src="images/grid-4-min.jpg" alt="Image" class="img-fluid">
-            <img src="images/grid-1-min.jpg" alt="Image" class="img-fluid">
-            <img src="images/grid-4-min.jpg" alt="Image" class="img-fluid">
-            <img src="images/grid-1-min.jpg" alt="Image" class="img-fluid">
+            <img src="images/hipdata1.png" alt="Image" class="img-fluid">
+            <img src="images/hipdata2.png" alt="Image" class="img-fluid">
+            <img src="images/hipdata3.png" alt="Image" class="img-fluid">
+            <img src="images/hipdata4.png" alt="Image" class="img-fluid">
+            <img src="images/hipdata5.png" alt="Image" class="img-fluid">
+            <img src="images/hipdata6.png" alt="Image" class="img-fluid">
 
           </div>
 
@@ -279,71 +305,21 @@
     </div>
   </div> <!-- /.untree_co-section -->
 
-
   <div class="cta-wrapper">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="cta text-center">
             <h2>Good people stablishes trust</h2>
-            <p>Do you have a project in mind?</p>
-            <p class="mb-0"><a href="#" class="btn btn-primary btn-white">Let's talk</a></p>
+            <p>Would you like to watch it again from the beginning?</p>
+            <p class="mb-0"><a href="#" class="btn btn-primary btn-white">Let's Home</a></p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="site-footer bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-2">
-          <div class="widget">
-            <h3>Help</h3> 
-            <ul class="list-unstyled">
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Untree.co</a></li>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">FAQ</a></li>   
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="widget">
-            <h3>About</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Solutions</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">FAQ</a></li>   
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="widget">
-            <h3>Support</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">Knowledge base</a></li>
-              <li><a href="#">Forum</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="widget">
-            <h3>Subscribe</h3>
-            <form action="#" class="subscribe">
-              <div class="d-flex">
-                <input type="email" class="form-control" placeholder="Email address">
-                <input type="submit" class="btn btn-black" value="Subscribe">
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
+ 
 
       <div class="row mt-5">
         <div class="col-12 text-center copyright">
